@@ -1,5 +1,6 @@
 import React, { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
+import "./styles.css";
 
 const HomePage = () => {
   const [value, setValue] = useState(""); // Fixed initialization of useState
